@@ -1,3 +1,17 @@
+## 自注：
+直接把wx-cropper的src下的代码放在components/wx-cropper目录下，然后使用
+
+  config = {
+    usingComponents: {
+      wxcropper: '../../components/wx-cropper/wx-cropper'
+    }
+  }
+，注意canvas 中的this指向就好
+
+
+
+
+
 ## wx-cropper
 基于原生的微信小程序的裁剪组件
 
